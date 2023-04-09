@@ -18,7 +18,7 @@ function Book({ book }) {
       }, 300);
     };
     return () => {
-      // when component unmounts
+      // when component unmounts!!
       mountedRef.current = false;
     }
   })
