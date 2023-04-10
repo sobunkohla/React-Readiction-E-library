@@ -3,6 +3,7 @@ import UndrawBooks from "../assets/Undraw_Books.svg"
 function Landing() {
  return (
     <section id="landing">
+        <header>
     <div className="header__container">
         <div className="header__description">
             <h1>South Africa's most awarded online library platform</h1>
@@ -15,6 +16,7 @@ function Landing() {
             <img src={UndrawBooks} alt="" className="" />
         </figure>
     </div>
+    </header>
     </section>
  )
 }
